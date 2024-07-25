@@ -14,16 +14,36 @@
     font-weight: 400;
     font-style: normal;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+.background-color{
+    background-color: black;
+}
+.width{
+    max-width: 1060px;
+    margin: 0 auto;
+}
 
 /* shared styles */
     .display-flex{
         display: flex;
     }
-    .text-white{
+    .text-white, th{
         color: rgb(255, 255, 255);
     }
-    .text-light-white{
+    .text-light-white, td{
         color: rgba(255, 255, 255, 0.5);
+    }
+    .special-text{
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .special-text-1{
+        font-size: 1.75rem;
+        font-weight: 800;
     }
     .bg-light{
         background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -44,6 +64,10 @@
         border-radius: 12px;
         backdrop-filter: blur(20px);
         background: rgba(48, 48, 48, 0.54);
+    }
+    .btn-color{
+        background-color: black;
+        border: 1px solid white;
     }
 /* header styles */
 
@@ -78,8 +102,6 @@
 .banner{
     gap: 167px;
 }
-
-
 .banner-content{
     max-width: 520px;
     text-align: left;
@@ -97,6 +119,7 @@
 #tutorial-nmbr{
     font-size: 2.5rem;
     font-weight: 900;
+    color: rgb(250, 250, 249);
 }
 .sp1{
     margin-left: -73px;
@@ -106,59 +129,4 @@
     position: absolute;
     margin-left: 120px;
     margin-top: -420px;
-}
-
-/* responsive media query */
-@media screen and (max-width: 576px){
-    .banner, 
-    .nav-bar,
-    .nav-links{
-        flex-direction: column;
-    }
-    .banner-part{
-        width:100%;
-    }
-    
-    .nav-bar{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .banner button{
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center; */
-    }
-    .sp1{
-        margin-top: -120px;
-        margin-left: 0px;
-    }
-    .sp2{
-        position: absolute;
-        margin-left: 0px;
-        margin-top: -420px;
-    }
-
-    .nav-bar, .banner{
-        max-width: 393px;
-        margin: 0 auto;
-    }
-    .nav-item{
-        display: none;
-    }
-    .hamburger-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 40px;
-        height: 30px;
-        cursor: pointer;
-    }
-    
-    .line {
-        width: 100%;
-        height: 5px;
-        background-color: #333;
-        border-radius: 5px;
-    }
 }
