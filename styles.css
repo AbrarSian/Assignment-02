@@ -268,7 +268,6 @@ background: rgba(255, 255, 255, 0.1);
 .pic-sizing-1{
     width: 326.67px;
     height: 272px;
-    /* padding: 15px; */
     margin: 20px 0px;
     border-radius: 18px;
 }
@@ -278,6 +277,20 @@ background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+.word-display{
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -25%;
+    padding-bottom: 10px;
+}
+.name-display{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.details-container{
+    margin: 0;
 }
 
 /* special section starts here */
@@ -408,6 +421,7 @@ hr{
     }
     .run-1{
         text-align: left;
+        padding-top: 15px;
     }
     .run-content{
         padding: 20px;
@@ -459,5 +473,9 @@ hr{
     }
     .container{
         margin-top: 25px;
+    }
+    .word-display{
+        padding-left: 37px;
+        margin-top: -21%;
     }
 }
