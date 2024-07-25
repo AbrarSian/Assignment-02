@@ -280,6 +280,34 @@ background: rgba(255, 255, 255, 0.1);
     grid-template-columns: repeat(3,1fr);
 }
 
+/* special section starts here */
+.challenge-part{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.display-view{
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 30%;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: -550px;
+}
+.pic-sizing-2{
+    height:auto
+}
+.head-text{
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.text-container{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.challenge-part-lame-trick{
+    display: none;
+}
+
 /* footer styles starts here */
 .container{
     background: rgba(255, 255, 255, 0.1);
@@ -289,7 +317,6 @@ background: rgba(255, 255, 255, 0.1);
     padding-bottom: 40px;
 }
 .footer-intro{
-    /* width: 443px; */
     margin-right: 102px;
 }
 .font1{
@@ -405,5 +432,32 @@ hr{
     main{
         width: 100%;
         margin: 0 auto;
+    }
+    .challenge-part{
+        display: none;
+    }
+    .challenge-part-lame-trick{
+        display: inline;
+    }
+    .display-view{
+        background: rgba(255, 255, 255, 0.1);
+        max-width: 70%;
+        margin: 0 auto;
+        border-radius: 30px;
+        padding: 30px;
+        margin-top: 25px;
+    }
+    .pic-sizing-2{
+        max-width: 50%;
+        margin-top: 10px;
+        margin-left: 25%;
+        border-radius: 30px;
+    }
+    .text-container{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .container{
+        margin-top: 25px;
     }
 }
