@@ -163,3 +163,27 @@ body{
 .description{
     text-align: center;
 }
+
+/* 2nd section style starts here */
+.run{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    margin-top: 100px;
+}
+.run-1{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 54px 30px 32px 29px;
+}
+.run-content{
+    padding-right: 165px;
+}
+.run-image{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+.run button{
+    margin-top: 34px;
+}
