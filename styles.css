@@ -230,14 +230,12 @@ background: rgba(255, 255, 255, 0.1);
 
 
 .info-chart{
-    /* margin-left: 30%; */
     width: 400px;
 }
 .form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    /* width: 400px; */
 }
 
 .input-group {
@@ -338,10 +336,6 @@ hr{
     .banner-part{
         width:100%;
     }
-    /* body{
-        width: 393px;
-        margin: 0 auto;
-    } */
     .nav-bar{
         flex-direction: row;
         justify-content: space-between;
@@ -404,7 +398,12 @@ hr{
         justify-content: center;
         padding-left: 15px;
     }
-    .info-chart{
+    .info-chart,
+    .table-part{
         max-width: 100%;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
     }
 }
