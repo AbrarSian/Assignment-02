@@ -130,3 +130,36 @@ body{
     margin-left: 120px;
     margin-top: -420px;
 }
+
+/* 1st section starts here */
+.habit-part{
+    text-align: center;
+}
+.pic-sizing{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.txt-design{
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.txt-design-1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.box{
+    width: 231px;
+    height: 350px;
+    margin-right: 20px;
+}
+.box-of-content{
+    justify-content: center;
+}
+.description{
+    text-align: center;
+}
