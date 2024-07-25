@@ -263,3 +263,22 @@ background: rgba(255, 255, 255, 0.1);
     grid-column: span 2;
 }
 
+/* 5th section starts here */
+.instructor-part{
+    text-align: center;
+}
+.pic-sizing-1{
+    width: 326.67px;
+    height: 272px;
+    /* padding: 15px; */
+    margin: 20px 0px;
+    border-radius: 18px;
+}
+.instructor-list{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
